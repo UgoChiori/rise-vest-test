@@ -1,0 +1,18 @@
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.bounce-animation {
+    animation: bounce 3s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+    .mobile-opaque {
+      opacity: 0.5;
+    }
+  }
