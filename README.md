@@ -161,6 +161,16 @@ rise-vest-test/
 
 This design ensures that no matter the screen size, users will experience an optimized layout.
 
+### Usage
+
+Once the development server is running, you can access the application in your browser at `http://localhost:5173`. It is also hosted at `(https://rise-vest-test.vercel.app/#)`. 
+### Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
+
+### License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 
 ---
