@@ -1,10 +1,9 @@
 import React from "react";
-import "./appromo.css"
-
+import "./appromo.css";
 
 const AppPromotionSection: React.FC = () => {
   return (
-    <section className="relative flex flex-col md:flex-row items-center h-auto h-[394px] py-16 md:py-24 bg-[#ECFEFE] text-center rounded-[30px] md:rounded-[50px] px-6 md:px-16  promo-container">
+    <section className="relative flex flex-col  md:flex-row items-center  h-[394px]  md:py-24 bg-[#ECFEFE] text-center rounded-[30px] md:rounded-[50px] px-6 md:px-16 promo-container">
       <div className="md:w-1/2 md:text-left z-10">
         <h2 className="text-[#07969E] text-[14px] md:text-[16px] font-medium mb-2 md:mb-4">
           Download the Rise App
@@ -16,7 +15,7 @@ const AppPromotionSection: React.FC = () => {
           Dollar investments that help you grow.
         </p>
 
-        <div className="flex justify-center md:justify-start space-x-4">
+         <div className="flex justify-center md:justify-start space-x-4">
           <a
             href="https://risevest.com"
             target="_blank"
@@ -39,14 +38,14 @@ const AppPromotionSection: React.FC = () => {
               className="w-[130px] md:w-[180px]"
             />
           </a>
-        </div>
+        </div> 
       </div>
 
-      <div className="relative mt-6 md:mt-0 md:w-1/2 flex justify-center z-0">
+      <div className="relative mt-6 md:mt-0 md:w-1/2 flex justify-center z-0 w-[180px] grow overflow-hidden">
         <img
           src="/images/heroimage.svg"
           alt="Phone"
-          className="w-[180px] md:w-[250px] object-contain relative md:absolute md:top-[-150px] !important"
+          className="w-[180px] h-[399px] md:w-[250px] object-contain relative  md:top-[-150px] !important"
         />
       </div>
     </section>
