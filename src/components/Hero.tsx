@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
       <div className="w-full md:w-1/2 space-y-6 md:space-y-8 px-6 md:px-0 text-center md:text-left">
         <h1
           id="hero-heading"
-          className="w-[359px] md:w-[500px] text-center md:text-left w-full text-[40px] md:text-[48px] lg:text-[56px] font-[600] font-dmSans text-[#07969E] leading-[36px] md:leading-[52px] lg:leading-[64px]"
+          className="md:w-[500px] text-center md:text-left w-full text-[40px] md:text-[48px] lg:text-[56px] font-[600] font-dmSans text-[#07969E] leading-[36px] md:leading-[52px] lg:leading-[64px]"
         >
           Dollar investments that help you grow
           <div className="inline-block relative">
