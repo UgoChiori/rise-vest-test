@@ -1,8 +1,10 @@
 import React from "react";
+import "./appromo.css"
+
 
 const AppPromotionSection: React.FC = () => {
   return (
-    <section className="relative flex flex-col md:flex-row items-center h-auto h-[394px] py-16 md:py-24 bg-[#ECFEFE] text-center rounded-[30px] md:rounded-[50px] px-6 md:px-16 overflow-hidden !important">
+    <section className="relative flex flex-col md:flex-row items-center h-auto h-[394px] py-16 md:py-24 bg-[#ECFEFE] text-center rounded-[30px] md:rounded-[50px] px-6 md:px-16  promo-container">
       <div className="md:w-1/2 md:text-left z-10">
         <h2 className="text-[#07969E] text-[14px] md:text-[16px] font-medium mb-2 md:mb-4">
           Download the Rise App
