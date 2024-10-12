@@ -1,11 +1,8 @@
-
-
-import React from 'react';
+import React from "react";
 
 const AppPromotionSection: React.FC = () => {
   return (
-    <section className="relative flex flex-col md:flex-row items-center h-auto h-[394px]  py-16 md:py-24 bg-[#ECFEFE] text-center rounded-[30px] md:rounded-[50px] px-6 md:px-16 overflow-hidden">
-      {/* Left Section - Text and Buttons */}
+    <section className="relative flex flex-col md:flex-row items-center h-auto h-[394px] py-16 md:py-24 bg-[#ECFEFE] text-center rounded-[30px] md:rounded-[50px] px-6 md:px-16 overflow-hidden">
       <div className="md:w-1/2 md:text-left z-10">
         <h2 className="text-[#07969E] text-[14px] md:text-[16px] font-medium mb-2 md:mb-4">
           Download the Rise App
@@ -18,16 +15,31 @@ const AppPromotionSection: React.FC = () => {
         </p>
 
         <div className="flex justify-center md:justify-start space-x-4">
-          <a href="https://risevest.com" target="_blank" rel="noopener noreferrer">
-            <img src="/images/appstore.svg" alt="App Store" className="w-[130px] md:w-[180px]" />
+          <a
+            href="https://risevest.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/images/appstore.svg"
+              alt="App Store"
+              className="w-[130px] md:w-[180px]"
+            />
           </a>
-          <a href="https://risevest.com" target="_blank" rel="noopener noreferrer">
-            <img src="/images/googleplay.svg" alt="Google Play" className="w-[130px] md:w-[180px]" />
+          <a
+            href="https://risevest.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/images/googleplay.svg"
+              alt="Google Play"
+              className="w-[130px] md:w-[180px]"
+            />
           </a>
         </div>
       </div>
 
-      {/* Right Section - Image */}
       <div className="relative mt-6 md:mt-0 md:w-1/2 flex justify-center z-0">
         <img
           src="/images/heroimage.svg"

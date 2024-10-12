@@ -1,20 +1,4 @@
-// import React from 'react';
 
-// const PartnersSection:React.FC = () => {
-//   return (
-//     <section className="py-10">
-//       <div className="flex justify-center space-x-8">
-//         <img src="/images/arm.svg" alt="Partners" className="h-12" />
-//         <img src="/images/westernunion.svg" alt="Partners" className="h-12" />
-//         <img src="/images/techstars.svg" alt="Partners" className="h-12" />
-//         <img src="/images/ventures.svg" alt="Partners" className="h-12" />
-    
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default PartnersSection;
 
 import React from 'react';
 

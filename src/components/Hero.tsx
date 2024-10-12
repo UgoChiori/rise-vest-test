@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
           </div>
         </h1>
 
-        <p className="md:w-[450px] w-[300px] text-center md:text-left text-[16px] md:text-[16px] lg:text-[18px] font-[400] leading-[22px] md:leading-[24px] lg:leading-[28px] text-[#4A5050] font-dmSans">
+        <p className="md:w-[450px] w-[350px]  text-center md:text-left text-[16px] md:text-[16px] lg:text-[18px] font-[400] leading-[22px] md:leading-[24px] lg:leading-[28px] text-[#4A5050] font-dmSans">
           We put your money in high-quality assets that help you build wealth
           and achieve your financial goals.
         </p>

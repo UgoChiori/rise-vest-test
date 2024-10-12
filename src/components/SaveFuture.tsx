@@ -3,7 +3,7 @@ import React from "react";
 const SaveFuture: React.FC = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between bg-white py-10 md:gap-x-20">
-      {/* Left side (Image) */}
+     
       <div className="relative w-full md:w-1/2 mb-8 md:mb-0 flex md:items-start justify-center">
         <div className="w-[400px] h-[550px] lg:w-[450px] lg:h-[650px] relative">
           <img
@@ -21,7 +21,7 @@ const SaveFuture: React.FC = () => {
         </div>
       </div>
 
-      {/* Right side (Text) */}
+     
       <div className="w-full md:w-1/2 text-left px-4 sm:px-6 md:px-0">
         <h2 className="text-lg md:text-[18px] font-[500] text-[#2D2D2D] font-dmSans">
           The Rise App
