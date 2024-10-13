@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="py-8">
       <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Logo and General Links */}
+     
         <div className="mt-6">
           <img src="/images/logoblack.svg" alt="Rise Logo" />
           <ul className="mt-4 space-y-2">
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
 
-        {/* Footer Sections */}
+    
         {footerLinks.map((section, index) => (
           <div key={index}>
             <h3 className="text-lg font-semibold mt-6">{section.title}</h3>
